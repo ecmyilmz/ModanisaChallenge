@@ -59,7 +59,7 @@ public class RunCucumber extends AbstractTestNGCucumberTests {
         try {
             ClientApi clientApi = new ClientApi(HOST, PROXY);
             Core core = new Core(clientApi);
-            FileOutputStream fos = new FileOutputStream(System.getProperty("user.dir") + "/HtmlReport/ModanisaZAPHtmlReport.html");
+            FileOutputStream fos = new FileOutputStream(System.getProperty("user.dir") + "/ZAPReport/ModanisaZAPHtmlReport.html");
             fos.write(core.htmlreport("ed06mf5o7nehlpgcbplji3nr68"));
             fos.close();
         } catch (Exception ex) {
