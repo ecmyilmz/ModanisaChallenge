@@ -1,0 +1,421 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-03-22T19:29:45.778Z",
+        "line": 3,
+        "name": "1 Verify that item can be added to the to-do list",
+        "description": "",
+        "id": "todo-list;1-verify-that-item-can-be-added-to-the-to-do-list",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 36435178,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Empty ToDo list",
+            "match": {
+              "location": "StepDef.empty_todo_list()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 170363952,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I write \"buy some milk\" to textBox and press ENTER",
+            "match": {
+              "arguments": [
+                {
+                  "val": "buy some milk",
+                  "offset": 9
+                },
+                {
+                  "val": "textBox",
+                  "offset": 27
+                },
+                {
+                  "val": "ENTER",
+                  "offset": 45
+                }
+              ],
+              "location": "StepDef.i_write_something_to_and_press(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 17957869,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I should see \"buy some milk\" item in ToDo list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "buy some milk",
+                  "offset": 14
+                }
+              ],
+              "location": "StepDef.i_should_see_something_item_in_todo_list(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-22T19:30:07.618Z",
+        "line": 8,
+        "name": "2 Verify that items can be added to the to-do list",
+        "description": "",
+        "id": "todo-list;2-verify-that-items-can-be-added-to-the-to-do-list",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 193198066,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "ToDo list with \"buy some milk\" item",
+            "match": {
+              "arguments": [
+                {
+                  "val": "buy some milk",
+                  "offset": 16
+                }
+              ],
+              "location": "StepDef.todo_list_with_something_item(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 53748500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I write \"enjoy the assignment\" to textBox and press ENTER",
+            "match": {
+              "arguments": [
+                {
+                  "val": "enjoy the assignment",
+                  "offset": 9
+                },
+                {
+                  "val": "textBox",
+                  "offset": 34
+                },
+                {
+                  "val": "ENTER",
+                  "offset": 52
+                }
+              ],
+              "location": "StepDef.i_write_something_to_and_press(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 24977158,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should see \"enjoy the assignment\" item insterted to ToDo list below \"buy some milk\" item",
+            "match": {
+              "arguments": [
+                {
+                  "val": "enjoy the assignment",
+                  "offset": 14
+                },
+                {
+                  "val": "buy some milk",
+                  "offset": 71
+                }
+              ],
+              "location": "StepDef.i_should_see_something_item_insterted_to_todo_list_below_something_item(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-22T19:30:29.614Z",
+        "line": 13,
+        "name": "3 Verify that the item on the to-do list has been done",
+        "description": "",
+        "id": "todo-list;3-verify-that-the-item-on-the-to-do-list-has-been-done",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 196656651,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "ToDo list with \"buy some milk\" item",
+            "match": {
+              "arguments": [
+                {
+                  "val": "buy some milk",
+                  "offset": 16
+                }
+              ],
+              "location": "StepDef.todo_list_with_something_item(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1078296851,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click on checkBox next to \"buy some milk\" item",
+            "match": {
+              "arguments": [
+                {
+                  "val": "checkBox",
+                  "offset": 11
+                },
+                {
+                  "val": "buy some milk",
+                  "offset": 29
+                }
+              ],
+              "location": "StepDef.i_click_on_next_to_something_item(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 43146897,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I should see \"buy some milk\" item marked as DONE",
+            "match": {
+              "arguments": [
+                {
+                  "val": "buy some milk",
+                  "offset": 14
+                }
+              ],
+              "location": "StepDef.i_should_see_something_item_marked_as_done(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-22T19:30:53.162Z",
+        "line": 18,
+        "name": "4 Verify that the item on the to-do list has been undone",
+        "description": "",
+        "id": "todo-list;4-verify-that-the-item-on-the-to-do-list-has-been-undone",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1263155606,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "ToDo list with marked item",
+            "match": {
+              "location": "StepDef.todo_list_with_marked_item()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1039910877,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I click on checkBox next to item",
+            "match": {
+              "arguments": [
+                {
+                  "val": "checkBox",
+                  "offset": 11
+                }
+              ],
+              "location": "StepDef.i_click_on_next_to_item(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 14217332,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I should see \"buy some milk\" item marked as UNDONE",
+            "match": {
+              "arguments": [
+                {
+                  "val": "buy some milk",
+                  "offset": 14
+                }
+              ],
+              "location": "StepDef.i_should_see_something_item_marked_as_undone(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-22T19:31:17.139Z",
+        "line": 23,
+        "name": "5 Verify that the item in the to-do list can be deleted",
+        "description": "",
+        "id": "todo-list;5-verify-that-the-item-in-the-to-do-list-can-be-deleted",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 176848297,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "ToDo list with \"rest for a while\" item",
+            "match": {
+              "arguments": [
+                {
+                  "val": "rest for a while",
+                  "offset": 16
+                }
+              ],
+              "location": "StepDef.todo_list_with_something_item(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1191570664,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I click on deleteButton next to \"rest for a while\" item",
+            "match": {
+              "arguments": [
+                {
+                  "val": "deleteButton",
+                  "offset": 11
+                },
+                {
+                  "val": "rest for a while",
+                  "offset": 33
+                }
+              ],
+              "location": "StepDef.i_click_on_next_to_something_item(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5770084,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "List should be empty",
+            "match": {
+              "location": "StepDef.list_should_be_empty()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-22T19:31:40.053Z",
+        "line": 28,
+        "name": "6 Verify that only one item in the to-do list can be deleted",
+        "description": "",
+        "id": "todo-list;6-verify-that-only-one-item-in-the-to-do-list-can-be-deleted",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 206491396,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "ToDo list with \"rest for a while\" and \"drink water\" item in order",
+            "match": {
+              "arguments": [
+                {
+                  "val": "rest for a while",
+                  "offset": 16
+                },
+                {
+                  "val": "drink water",
+                  "offset": 39
+                }
+              ],
+              "location": "StepDef.todo_list_with_something_and_something_item_in_order(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1192906829,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I click on deleteButton next to \"rest for a while\" item",
+            "match": {
+              "arguments": [
+                {
+                  "val": "deleteButton",
+                  "offset": 11
+                },
+                {
+                  "val": "rest for a while",
+                  "offset": 33
+                }
+              ],
+              "location": "StepDef.i_click_on_next_to_something_item(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10378875,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I should see \"drink water\" item in ToDo list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "drink water",
+                  "offset": 14
+                }
+              ],
+              "location": "StepDef.i_should_see_something_item_in_todo_list(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Todo List",
+    "description": "",
+    "id": "todo-list",
+    "keyword": "Feature",
+    "uri": "classpath:features/ToDoList.feature",
+    "tags": []
+  }
+]

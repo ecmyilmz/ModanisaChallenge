@@ -21,6 +21,10 @@ import java.io.IOException;
 @CucumberOptions(features = {"classpath:features"}
                   //, tags = {"@regression"}
                  ,glue = {"stepdefinitions"}
+                 , plugin = {"pretty",
+                             "html:target/cucumber-reports/cucumber-pretty",
+                             "json:target/cucumber-reports/json-reports/CucumberTestReport.json",
+                             "rerun:target/cucumber-reports/rerun-reports/rerun.txt"}
                  )
 
 @Test
@@ -49,6 +53,7 @@ public class RunCucumber extends AbstractTestNGCucumberTests {
 
         driver.get("https://todomvc.com/examples/vue/");
     }
+
     @AfterMethod
     public void teardown(){
         try {
@@ -63,7 +68,6 @@ public class RunCucumber extends AbstractTestNGCucumberTests {
         if (driver != null) {
             driver.quit();
         }
-
     }
 
 }

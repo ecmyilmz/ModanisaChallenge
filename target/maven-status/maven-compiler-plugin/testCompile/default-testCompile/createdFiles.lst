@@ -1,3 +1,5 @@
-Pages/HomePage.class
 runner/RunCucumber.class
+Pages/MainPage.class
+behavior/MainBehave.class
 stepdefinitions/StepDef.class
+Pages/HomePage.class
