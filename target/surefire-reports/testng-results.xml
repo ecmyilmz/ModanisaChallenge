@@ -2,10 +2,10 @@
 <testng-results skipped="0" failed="0" total="0" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="All Test Suite" duration-ms="2" started-at="2021-03-22T19:29:14Z" finished-at="2021-03-22T19:29:14Z">
+  <suite name="All Test Suite" duration-ms="2" started-at="2021-03-22T20:07:15Z" finished-at="2021-03-22T20:07:15Z">
     <groups>
     </groups>
-    <test name="/Users/ecemyilmaz/Desktop/Modanisa" duration-ms="2" started-at="2021-03-22T19:29:14Z" finished-at="2021-03-22T19:29:14Z">
+    <test name="/Users/ecemyilmaz/Desktop/Modanisa" duration-ms="2" started-at="2021-03-22T20:07:15Z" finished-at="2021-03-22T20:07:15Z">
     </test> <!-- /Users/ecemyilmaz/Desktop/Modanisa -->
   </suite> <!-- All Test Suite -->
 </testng-results>
