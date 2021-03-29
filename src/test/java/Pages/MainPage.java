@@ -5,6 +5,7 @@ import org.openqa.selenium.WebElement;
 import runner.RunCucumber;
 
 import java.io.IOException;
+import java.util.List;
 import java.util.Optional;
 import java.util.Properties;
 
@@ -36,19 +37,19 @@ public class MainPage extends RunCucumber {
     }
 
 
-    private static WebElement getElement(String sel) {
+    public static WebElement getElement(String sel) {
         return driver.findElement(getBy(sel));
     }
 
+    public static List<WebElement> getElements(String sel) {
+        return driver.findElements(getBy(sel));
+    }
 
 
     public static By getBy(String tag) {
-        if (tag.substring(0, 1).equals("("))
-            return By.xpath(tag);
         if (tag.substring(0, 1).equals("/"))
             return By.xpath(tag);
         else return By.id(tag);
     }
-
 
 }

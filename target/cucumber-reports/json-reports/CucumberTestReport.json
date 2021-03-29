@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-03-22T19:56:47.764Z",
+        "start_timestamp": "2021-03-29T21:24:17.453Z",
         "line": 3,
         "name": "1 Verify that item can be added to the to-do list",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 16869605,
+              "duration": 23192556,
               "status": "passed"
             },
             "line": 4,
@@ -25,7 +25,7 @@
           },
           {
             "result": {
-              "duration": 89285680,
+              "duration": 224520507,
               "status": "passed"
             },
             "line": 5,
@@ -51,7 +51,7 @@
           },
           {
             "result": {
-              "duration": 82781423,
+              "duration": 15763881,
               "status": "passed"
             },
             "line": 6,
@@ -70,7 +70,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-03-22T19:57:09.778Z",
+        "start_timestamp": "2021-03-29T21:24:39.334Z",
         "line": 8,
         "name": "2 Verify that items can be added to the to-do list",
         "description": "",
@@ -80,7 +80,7 @@
         "steps": [
           {
             "result": {
-              "duration": 194698789,
+              "duration": 183691411,
               "status": "passed"
             },
             "line": 9,
@@ -98,7 +98,7 @@
           },
           {
             "result": {
-              "duration": 54241053,
+              "duration": 48620255,
               "status": "passed"
             },
             "line": 10,
@@ -124,7 +124,7 @@
           },
           {
             "result": {
-              "duration": 24426591,
+              "duration": 20259790,
               "status": "passed"
             },
             "line": 11,
@@ -147,7 +147,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-03-22T19:57:31.815Z",
+        "start_timestamp": "2021-03-29T21:25:01.452Z",
         "line": 13,
         "name": "3 Verify that the item on the to-do list has been done",
         "description": "",
@@ -157,7 +157,7 @@
         "steps": [
           {
             "result": {
-              "duration": 186786632,
+              "duration": 184712696,
               "status": "passed"
             },
             "line": 14,
@@ -175,7 +175,7 @@
           },
           {
             "result": {
-              "duration": 1077505630,
+              "duration": 69470736,
               "status": "passed"
             },
             "line": 15,
@@ -197,7 +197,7 @@
           },
           {
             "result": {
-              "duration": 36944529,
+              "duration": 16204892,
               "status": "passed"
             },
             "line": 16,
@@ -216,7 +216,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-03-22T19:57:54.751Z",
+        "start_timestamp": "2021-03-29T21:25:23.465Z",
         "line": 18,
         "name": "4 Verify that the item on the to-do list has been undone",
         "description": "",
@@ -226,7 +226,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1295911289,
+              "duration": 266052682,
               "status": "passed"
             },
             "line": 19,
@@ -238,7 +238,7 @@
           },
           {
             "result": {
-              "duration": 1043564965,
+              "duration": 32800515,
               "status": "passed"
             },
             "line": 20,
@@ -256,7 +256,7 @@
           },
           {
             "result": {
-              "duration": 15169522,
+              "duration": 13470098,
               "status": "passed"
             },
             "line": 21,
@@ -275,7 +275,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-03-22T19:58:18.850Z",
+        "start_timestamp": "2021-03-29T21:25:45.790Z",
         "line": 23,
         "name": "5 Verify that the item in the to-do list can be deleted",
         "description": "",
@@ -285,7 +285,7 @@
         "steps": [
           {
             "result": {
-              "duration": 188780695,
+              "duration": 183766864,
               "status": "passed"
             },
             "line": 24,
@@ -303,7 +303,7 @@
           },
           {
             "result": {
-              "duration": 1197531679,
+              "duration": 178750429,
               "status": "passed"
             },
             "line": 25,
@@ -325,7 +325,7 @@
           },
           {
             "result": {
-              "duration": 6248118,
+              "duration": 7686366,
               "status": "passed"
             },
             "line": 26,
@@ -338,7 +338,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-03-22T19:58:42.007Z",
+        "start_timestamp": "2021-03-29T21:26:09.079Z",
         "line": 28,
         "name": "6 Verify that only one item in the to-do list can be deleted",
         "description": "",
@@ -348,7 +348,7 @@
         "steps": [
           {
             "result": {
-              "duration": 211179333,
+              "duration": 220320109,
               "status": "passed"
             },
             "line": 29,
@@ -370,7 +370,7 @@
           },
           {
             "result": {
-              "duration": 1219022942,
+              "duration": 217314870,
               "status": "passed"
             },
             "line": 30,
@@ -392,7 +392,7 @@
           },
           {
             "result": {
-              "duration": 10651614,
+              "duration": 11262564,
               "status": "passed"
             },
             "line": 31,
